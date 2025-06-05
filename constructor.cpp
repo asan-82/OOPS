@@ -1,8 +1,10 @@
-// constructor is a special type of func with no return type
+// constructor is a special type of func with no return type and has the same name as the class
 //called as soon as an obj is created
 //memory is allocated on obj creation
 // constructor types: default and parameterized, default is called on its own as soon as the obj is created 
 //always declare constructor in public because main can only access public data and methods
+// multiple constructors can be created using either different types or different number of parameters or both
+// the above concept is called as CONSTRUCTOR OVERLOADING
 
 #include<iostream>
 #include<string>
